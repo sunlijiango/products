@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    html,body{
+      width: 100%;
+      height: 100%;
+      background-color: aquamarine;
+    }
+    .all{
+      width: 100%;
+      height: 100%;
+      background-color: brown;
+    }
+    .all .top{
+         width: 100%;
+         height: 10%;
+         background-color: blueviolet;
+         display: flex;
+    }
+    .all .top .top1{
+       flex: 1;
+      height: 100%;
+      background-color: pink;
+    }
+    .all .top .top2{
+     flex: 3;
+      height: 100%;
+      background-color: purple;
+    }
+    .all .top .top3{
+      flex:1;
+      height: 100%;
+      background-color: yellowgreen;
+      line-height: 90px;
+    }
+    .all .bottom{
+      width: 100%;
+      height: 90%;
+      background-color: white;
+      display: flex;
+    }
+    .all .bottom .left{
+     flex: 2;
+      height: 100%;
+      background-color: bisque;
+    }
+    .all .bottom .right{
+     flex: 8;
+      height: 100%;
+      background-color: lawngreen;
+    }
+    .all .bottom .left .top{
+      width: 100%;
+      height: 30%;
+      background-color: aqua;
+    }
+    .all .bottom .left .bottom{
+      width: 100%;
+      height: 70%;
+      background-color: crimson;
+    }
+    .all .bottom .left .bottom ul{
+      width: 100%;
+      height: 100%;
+    }
+    .all .bottom .left .bottom ul a{
+      width: 100%;
+      height: 100%;
+    }
+    .all .bottom .left .bottom ul li{
+      width: 100%;
+      height: 25%;
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+      <div class="all">
+        <div class="top">
+          <div class="top1">1</div>
+          <div class="top2">2</div>
+          <div class="top3">3</div>
+         
+        </div>
+        <div class="bottom">
+          <div class="left">
+            <div class="top"></div>
+            <div class="bottom">
+              <ul>
+                <a href="">
+                  <li><span>1</span></li>
+                </a>
+                <a href="">
+                  <li><span>2</span></li>
+                </a>
+                <a href="">
+                  <li><span>3</span></li>
+                </a>
+                <a href="">
+                  <li><span>4</span></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+          <div class="right"></div>
+        </div>
+      </div>
+</body>
+</html>
